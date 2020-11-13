@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.infamous.stay_gold.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "stay_gold.refmap.json",
+  "mixins": [
+    "EnchantmentHelperMixin",
+    "EnchantRandomlyMixin",
+    "RepairContainerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
